@@ -1,0 +1,24 @@
+{
+  "name": "purescript-ccap-html-renderer",
+  "version": "1.0.0",
+  "description": "Render Halogen HTML and write to file",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/.bin/spago build --purs-args='--strict --stash --censor-lib'",
+    "dev": "node_modules/.bin/spago build -w --purs-args='--stash --censor-lib'",
+    "test": "node_modules/.bin/spago test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ccap/purescript-ccap-html-renderer.git"
+  },
+  "private": "true",
+  "dependencies": {
+    "purescript": "0.15.8"
+  },
+  "devDependencies": {
+    "pretty": "^2.0.0",
+    "purs-tidy": "^0.9.3",
+    "spago": "0.20.9"
+  }
+}
